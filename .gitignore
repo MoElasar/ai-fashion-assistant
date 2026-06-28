@@ -1,0 +1,63 @@
+﻿# ===== Flutter / Dart =====
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+*.apk
+*.aab
+*.ipa
+**/doctor_validate_*.json
+
+# Android
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/local.properties
+**/android/key.properties
+*.keystore
+*.jks
+
+# iOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework/
+
+# ===== Python backend =====
+ai-fashion-backend/venv/
+**/venv/
+**/.venv/
+**/env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ===== Model weights / large binaries =====
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pkl
+*.weights
+
+# ===== Secrets =====
+.env
+*.env
+secrets.json
+config.local.*
+
+# ===== Uploaded / runtime data =====
+uploads/
+*.log
+*.db
+*.sqlite3
+
+# ===== OS / IDE =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
